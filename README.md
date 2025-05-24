@@ -1,7 +1,9 @@
 # Consciousness as Error Correction
 
 **Hackathon**: Discovery AI Agent Hackathon 2025
+
 **Authors**: Shresht Bhowmick
+
 **Core Thesis**: Consciousness is what error correction feels like.
 
 ---
@@ -41,20 +43,20 @@ For the primary interactive experience and presentation flow:
 
 **The Problem:** Biological brains are inherently noisy (e.g., ~20% neural spike timing variability), yet they produce stable, unified conscious experiences. Furthermore, higher-order cognition, like recursive thought (thinking about thinking), would cause noise to accumulate exponentially, rendering such thought impossible without a corrective mechanism.
 
-**Our Insight:** Consciousness is not a mysterious epiphenomenon but rather the *subjective experience* of a crucial computational process: **error correction applied to recursive neural computations.**
+**My Insight:** Consciousness is not a mysterious epiphenomenon but rather the *subjective experience* of a crucial computational process: **error correction applied to recursive neural computations.**
 
 **The Mechanism (Inspired by Grid Cells & Predictive Coding):
 
 1.  **Recursive Processing**: Thoughts influence subsequent thoughts (`x(t) = f(x(t-1)) + noise`).
 2.  **Noise Accumulation**: Without correction, the error `ε(t)` grows, potentially exponentially if the system is sensitive (i.e., `|∂f/∂x| > 1`).
 3.  **Error Correction (EC)**: The brain employs mechanisms (analogous to grid cell phase encoding or predictive coding hierarchies) to detect and correct these errors. This involves redundant representations and voting/consensus mechanisms to reconstruct the true signal from noisy instances.
-4.  **Phase Transition**: A critical level of error correction strength (EC > ~0.3 in our models) is required to stabilize recursive thought in the presence of significant biological noise. This leads to a sharp phase transition from a chaotic, unstable (unconscious-like) state to a stable, coherent (conscious-like) state.
+4.  **Phase Transition**: A critical level of error correction strength (EC > ~0.3 in my models) is required to stabilize recursive thought in the presence of significant biological noise. This leads to a sharp phase transition from a chaotic, unstable (unconscious-like) state to a stable, coherent (conscious-like) state.
 
 ---
 
 ## 🔬 Key Computational Results & Validations
 
-Our simulations and analyses (`simulations/` and `scripts/` folders) provide strong evidence for this theory:
+My simulations and analyses (`simulations/` and `scripts/` folders) provide strong evidence for this theory:
 
 1.  **Exponential Error Growth Confirmed**: 
     *   `scripts/generate_error_accumulation_plot.py` demonstrates that without EC, recursive computations with a gain > 1 quickly devolve due to noise.
@@ -76,7 +78,7 @@ Our simulations and analyses (`simulations/` and `scripts/` folders) provide str
     *   `scripts/validate_core_math.py` confirms:
         *   **Information Requirement**: The model requires ~3.32 bits for stable recursive thought, aligning with human working memory capacity (approx. 2.8-3.17 bits for 7±2 items).
         *   **Minimum Network Size**: ~10,000 neurons are estimated for basic EC, consistent with simpler conscious organisms.
-        *   **Biological Noise Levels**: Typical biological noise (σ ≈ 0.1-1.0) often exceeds the threshold where our model shows EC becomes essential.
+        *   **Biological Noise Levels**: Typical biological noise (σ ≈ 0.1-1.0) often exceeds the threshold where my model shows EC becomes essential.
 
 5.  **Validated Predictions from `simulations/experiments/test_consciousness.py`** (generates `psychedelic_test.png`, `development_test.png`, `anesthesia_test.png`):
     *   **Psychedelics**: Modeled as disruption of EC mechanisms (not just adding noise), leading to altered but structured conscious states.
@@ -87,12 +89,12 @@ Our simulations and analyses (`simulations/` and `scripts/` folders) provide str
 
 ## 🌐 Scientific Validation & Broader Context
 
-Our computational theory aligns with and provides a unifying framework for several lines of existing research (detailed in **[SCIENTIFIC_VALIDATION.md](SCIENTIFIC_VALIDATION.md)**):
+My computational theory aligns with and provides a unifying framework for several lines of existing research (detailed in **[SCIENTIFIC_VALIDATION.md](SCIENTIFIC_VALIDATION.md)**):
 
 *   **Grid Cells as Error Correctors**: (Fiete et al., 2011, Nature Neuroscience; Hardcastle et al., 2015, Neuron).
 *   **Fault-Tolerant Neural Computation**: Phase transitions to fault-tolerance in neural networks (Zlokapa et al., 2024, arXiv - MIT).
 *   **Higher-Order Thought Theories**: Links to concepts of meta-representation and credit assignment in consciousness (Rolls, 2020, Frontiers in Psychology).
-*   **Clinical Consciousness Monitoring**: Devices like qCON and BIS™ used in anesthesia/ICU already rely on EEG proxies that reflect brain state stability and information processing, analogous to what our EC mechanism achieves (Harsha et al., 2022, Indian J Crit Care Med).
+*   **Clinical Consciousness Monitoring**: Devices like qCON and BIS™ used in anesthesia/ICU already rely on EEG proxies that reflect brain state stability and information processing, analogous to what my EC mechanism achieves (Harsha et al., 2022, Indian J Crit Care Med).
 
 ---
 
