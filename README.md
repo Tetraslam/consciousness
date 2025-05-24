@@ -1,8 +1,8 @@
 # Consciousness as Error Correction
 
-**Hackathon**: Dev Connect 2024 (Discovery AI Agent Track)
-**Authors**: [Your Name/Team Name Here]
-**Core Thesis**: "Consciousness is what error correction feels like."
+**Hackathon**: Discovery AI Agent Hackathon 2025
+**Authors**: Shresht Bhowmick
+**Core Thesis**: Consciousness is what error correction feels like.
 
 ---
 
@@ -104,7 +104,7 @@ Our computational theory aligns with and provides a unifying framework for sever
 
 ---
 
-## 📁 Project Structure (Cleaned)
+## 📁 Project Structure
 
 ```
 consciousness/
@@ -138,8 +138,7 @@ consciousness/
 │   ├── models/
 │   │   ├── conscious_neural_network.py     # Original model, used by test_consciousness.py
 │   │   ├── conscious_neural_network_v2.py  # Intermediate, refined model
-│   │   └── conscious_neural_network_v3.py  # Latest model for interactive demo & realistic diagram
-│   └── __init__.py (and in subdirs)
+│   │   └── conscious_neural_network_v3.py  # Latest model for interactive demo & realistic 
 │
 └── visualizations/              # All generated plots and figures
     ├── anesthesia_test.png
@@ -169,5 +168,4 @@ consciousness/
 
 ---
 
-**Contact**: [Your Name/Team Name & Contact Info]
-**GitHub Repo**: [Link to your GitHub repository]
+**Contact**: shresht@mit.edu/bhowmick.sh@northeastern.edu/bhowmickshresht@gmail.com | [Twitter](https://x.com/tetraslam)
